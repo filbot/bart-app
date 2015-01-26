@@ -1,0 +1,74 @@
+body {
+    font-family: helvetica;
+    background-color: #3C4353;
+    padding: 3rem;
+    color: #444;
+}
+
+body p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.train-data-container {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
+
+.train-data {
+    max-width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+
+.train-data img {
+    width: 20px;
+}
+
+.station-data {
+    font-size: 1.5rem;
+    color: #C2C5CB;
+    font-weight: 100;
+}
+
+.train-time {
+    font-size: 8rem;
+    color: #E7AB71;
+    font-weight: 600;
+}
+
+.next-train-time {
+    font-size: 2rem;
+    color: #C2C5CB;
+    font-weight: 100;
+}
+
+.destination-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    max-width: 30%;
+    text-align: left;
+    color: #C2C5CB;
+    border: dotted #fff 1px;
+}
+
+.advisory-container {
+    display: flex;
+    justify-content: center;
+}
+
+#advisory-list {
+    width: 50%;
+    list-style: none;
+    padding-left: 0;
+}
+
+#advisory-list li {
+    background-color: #C2C5CB;
+    padding: 5px;
+    margin: 10px 0;
+}
